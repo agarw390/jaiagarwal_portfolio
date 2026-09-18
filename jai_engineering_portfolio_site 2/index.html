@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jai Agarwal | Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Jai Agarwal</a>
+    <nav>
+      <a href="#spot">Spot Payload</a>
+      <a href="#polaris">Polaris Test Bed</a>
+      <a href="#centech">Centrifugal Compressor Rig</a>
+      <a href="#purpl">PURPL Turbopump</a>
+      <a href="#gateway">NASA Gateway</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">Engineering Portfolio</p>
+        <h1>Mechanical Design, Rapid Prototyping, Hardware Integration, and Rotordynamics.</h1>
+        <p class="hero-text">Purdue Mechanical Engineering | Class of 2027</p>
+      </div>
+      <div class="hero-card">
+        <img src="assets/headshot.jpeg" alt="Jai Agarwal headshot" />
+        <div>
+          <h2>Jai Agarwal</h2>
+          <p>Mechanical Engineering student focused on building and analyzing physical systems to survive real use.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="experience-strip section-pad" aria-label="Experience logos">
+      <h2>Experience</h2>
+      <div class="logo-row">
+        <div class="logo-card"><img src="assets/army_logo.png" alt="U.S. Army logo" /><span>U.S. Army DEVCOM C5ISR</span></div>
+        <div class="logo-card"><img src="assets/gm_logo.png" alt="General Motors logo" /><span>General Motors</span></div>
+        <div class="logo-card"><img src="assets/honeywell_logo_new.png" alt="Honeywell Aerospace logo" /><span>Honeywell Aerospace</span></div>
+        <div class="logo-card"><img src="assets/purpl_logo_new.png" alt="Purdue Undergraduate Rocket Propulsion Lab logo" /><span>PURPL</span></div>
+      </div>
+    </section>
+
+    <section class="toc section-pad" aria-label="Portfolio map">
+      <h2>Portfolio Map</h2>
+      <div class="toc-grid">
+        <a href="#spot"><span>01</span><strong>Mine-Detection Payload for Boston Dynamics Spot</strong><em>U.S. Army DEVCOM C5ISR R&amp;D</em></a>
+        <a href="#polaris"><span>02</span><strong>Polaris Ranger Test Platform</strong><em>U.S. Army DEVCOM C5ISR R&amp;D</em></a>
+        <a href="#centech"><span>03</span><strong>Centrifugal Compressor Rig</strong><em>Honeywell Aerospace</em></a>
+        <a href="#purpl"><span>04</span><strong>1,500 lbf Ethanol/LOX Turbopump</strong><em>Purdue Undergraduate Rocket Propulsion Lab</em></a>
+        <a href="#gateway"><span>05</span><strong>NASA Gateway Visualization Tool</strong><em>Purdue Data Mine / Barrios Technology</em></a>
+      </div>
+    </section>
+
+    <section id="spot" class="project section-pad">
+      <div class="project-kicker">01 | U.S. Army DEVCOM C5ISR Research &amp; Development Directorate | July 2025 – August 2025</div>
+      <h2>Mine-Detection Payload for Boston Dynamics Spot</h2>
+
+      <div class="project-layout spot-summary">
+        <div class="visual-card large spot-main-image">
+          <img src="assets/spot_payload_cad.png" alt="CAD model of mine-detection payload mounted on Boston Dynamics Spot robot" />
+        </div>
+        <div class="info-stack tight-info">
+          <article>
+            <h3>Mission</h3>
+            <p>Robotic above-ground mine detection with real-time hazard visualization and GPS-based location tracking for soldier awareness and humanitarian demining.</p>
+          </article>
+          <article>
+            <h3>Role</h3>
+            <p>Owned the physical payload system: CAD, mounting, internal architecture, component packaging, wiring layout, cooling, mass/CG, prototyping, and integration.</p>
+          </article>
+          <article>
+            <h3>Outcome</h3>
+            <p>Built and demonstrated the working prototype to Army leadership to support future funding, iteration, and deployment.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="skills-row story-order compact-skills large-skills">
+        <span>SolidWorks CAD</span><span>Hardware Architecture</span><span>Power + Data Flow</span><span>Mass / CG Analysis</span><span>3D Printing</span><span>DFM</span>
+      </div>
+
+      <div class="narrative-heading spot-flow-header">
+        <h3>Design process</h3>
+      </div>
+
+      <div class="spot-perfect-grid">
+        <article class="spot-tile req-tile">
+          <h4>Key Requirements + Constraints</h4>
+          <ul>
+            <li>14 kg payload limit</li>
+            <li>Centered mass on Spot body</li>
+            <li>Mount to Spot body rails</li>
+            <li>Avoid leg interference</li>
+            <li>Package compute, power, sensors, cooling, and wiring</li>
+            <li>Removable and serviceable payload</li>
+          </ul>
+        </article>
+
+        <article class="spot-tile image-tile inspiration-tile">
+          <h4>Design Inspiration</h4>
+          <img src="assets/hammerhead_reference.png" alt="Hammerhead shark design inspiration" />
+        </article>
+
+        <article class="spot-tile image-tile architecture-tile">
+          <h4>Internal Hardware Architecture</h4>
+          <img src="assets/spot_architecture_tight.png" alt="Power and data flow diagram for Spot payload" />
+        </article>
+
+        <article class="spot-tile image-tile prototype-tile">
+          <h4>Rapid Prototyping</h4>
+          <img src="assets/spot_3d_print_prototype.png" alt="3D printed payload prototype" />
+        </article>
+
+        <article class="spot-tile dfm-tile">
+          <h4>Design for Manufacturing</h4>
+          <p>Created detailed manufacturing drawings and sheet-metal-ready CAD so the payload box could move from 3D-printed prototype to mass-produced with bent sheet-metal fabrication.</p>
+        </article>
+
+        <article class="spot-tile image-tile mounting-tile">
+          <h4>Payload Mounting</h4>
+          <img src="assets/spot_mounting_reference.png" alt="Boston Dynamics Spot payload mounting rails and payload port" />
+          <p>Mounted to Spot body rails using M5 hardware and sliding T-slot nuts; powered through Spot’s internal payload port.</p>
+        </article>
+
+        <article class="spot-tile image-tile demo-tile">
+          <h4>Final Assembly, Testing + Leadership Demo</h4>
+          <img src="assets/spot_public_demo.png" alt="Public image of mine-detection Spot robot demonstration" />
+        </article>
+      </div>
+
+      <a class="army-article-link" href="https://www.army.mil/article/287454/the_c5isr_center_uses_ai_ml_to_transform_countermine_operations" target="_blank" rel="noreferrer">The C5ISR Center uses AI, ML to transform countermine operations</a>
+    </section>
+
+<section id="polaris" class="project section-pad alt">
+      <div class="project-kicker">02 | U.S. Army DEVCOM C5ISR Research &amp; Development Directorate | May 2024 – February 2025</div>
+      <h2>Polaris Ranger XP 1000 Test Platform</h2>
+      <p class="subtitle">Vehicle-mounted hardware, modular sensor architecture, fabrication drawings, and field serviceability</p>
+      <div class="project-layout reverse">
+        <div class="info-stack">
+          <article><h3>Project Scope</h3><p>Created SolidWorks designs, sheet-metal parts, laser-cut plates, and multi-part assemblies for a Polaris Ranger XP 1000 test bed used to collect field data and support hardware testing.</p></article>
+          <article><h3>Design for Manufacturing</h3><p>Worked directly with shop-floor fabricators to create manufacturable designs, selecting materials, plate thicknesses, and fabrication methods while producing detailed files for laser-cut parts, formed sheet metal, and welded assemblies.</p></article>
+          <article><h3>Assembly + Integration</h3><p>Owned the full build cycle from concept through installation: ideation, CAD, iteration, manufacturing drawings, fabrication support, coating/paint coordination, hardware selection, and final integration onto the vehicle.</p></article>
+        </div>
+        <div class="visual-card large"><img src="assets/polaris_ranger_cad.png" alt="CAD render of Polaris Ranger test platform with mounted hardware" /></div>
+      </div>
+      <div class="polaris-grid">
+        <article class="process-card"><h3>Roof-Mounted Railing System</h3><p>Designed a modular T-slot rail system that allowed crossbars and mounting plates to be loosened, repositioned, and reconfigured as hardware needs changed during development.</p></article>
+        <article class="process-card"><h3>Foldable GPS Mounts</h3><p>Designed a multi-piece foldable GPS mounting assembly with a trussed support and pinned hinge mechanism that locked in deployed and stowed positions for testing and transport.</p></article>
+        <article class="process-card"><h3>Generator Mount</h3><p>Designed a custom mounting plate and isolation system to install a 9 kW generator onto the Polaris bed, using vibration isolators to protect the structure and attached hardware.</p></article>
+        <article class="process-card"><h3>Climate-Control Electronics Enclosure</h3><p>Integrated a large electronics enclosure with rooftop air conditioning to protect onboard computers, wiring, and electronics during field testing.</p></article>
+        <article class="process-card"><h3>Foldable Engineering Workstation</h3><p>Designed a foldable three-piece workstation assembly inside the vehicle to support field engineering work while folding compactly when not in use.</p></article>
+        <article class="process-card"><h3>Roof Sensor / Electronics Plates</h3><p>Created laser-cut mounting plates for roof-mounted electronics and test hardware, enabling fast reconfiguration of sensors, electronics, and support equipment.</p></article>
+      </div>
+    </section>
+
+<section id="centech" class="project section-pad">
+      <div class="project-kicker">03 | Honeywell Aerospace | June 2026 – Present</div>
+      <h2>Centrifugal Compressor Rig Rotordynamics</h2>
+      <p class="subtitle">Rotordynamics analysis ownership for a $15M centrifugal compressor rig</p>
+      <div class="project-layout">
+        <div class="visual-card honeywell-image-stack">
+          <img src="assets/honeywell_engine_cutaway.png" alt="Honeywell Aerospace representative engine cutaway imagery" />
+          <img src="assets/honeywell_engine_external.png" alt="Honeywell Aerospace representative engine imagery" />
+          <p class="caption">Representative Honeywell Aerospace imagery shown for context. Specific project visuals are omitted because the work is export controlled.</p>
+        </div>
+        <div class="info-stack">
+          <article><h3>Analysis Built From</h3><p>Rig cross-section, shaft stations, bearing locations, bearing housing stiffness, squeeze-film damper parameters, forward-end telemetry hardware, aft-end quill shaft dynamics, and lumped masses for complex components.</p></article>
+          <article><h3>Outputs</h3><p>Critical speeds, mode shapes, cylindrical/conical unbalance response, excited modes with bearing damping included, bearing loads, and rub clearance risk at impeller and thrust piston locations.</p></article>
+          <article><h3>PDR Ownership</h3><p>Presented requirements, modeling process, assumptions, results, future steps, and closeout items to 30+ stakeholders and subject-matter experts during the Preliminary Design Review.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="purpl" class="project section-pad alt">
+      <div class="project-kicker">04 | Purdue Undergraduate Rocket Propulsion Lab | August 2025 – Present</div>
+      <h2>1,500 lbf Ethanol/LOX Turbopump</h2>
+      <p class="subtitle">Applying rotordynamics to turbopump shaft design and bearing layout trade studies</p>
+      <div class="placeholder-grid">
+        <div class="placeholder">Drop in full turbopump CAD</div>
+        <div class="placeholder">Drop in shaft / rotor schematic</div>
+        <div class="placeholder">Drop in cross-section</div>
+        <div class="placeholder">Drop in critical speed / Campbell plot</div>
+      </div>
+      <div class="deep-grid three">
+        <article class="process-card"><h3>Current Work</h3><p>Supporting turbopump shaft design through rotordynamic and shafting analysis to evaluate critical speeds, mode shapes, bearing loads, and safe operating margins.</p></article>
+        <article class="process-card"><h3>Trade Study</h3><p>Proposed and conducting a study on moving the two LOX-side locating bearings aft of the interpropellant seal to avoid LOX-cooled bearings.</p></article>
+        <article class="process-card"><h3>Engineering Question</h3><p>Can the bearing layout be changed while preserving shaft dynamics, rotor stability, and safe operating margins?</p></article>
+      </div>
+    </section>
+
+
+    <section id="gateway" class="project section-pad">
+      <div class="project-kicker">05 | Purdue Data Mine / Barrios Technology / NASA Gateway | Jan 2025 – July 2025</div>
+      <h2>NASA Gateway Visualization Tool</h2>
+      <p class="subtitle">Unreal Engine desktop and VR-capable visualization tool for NASA Gateway mission planning, astronaut training, and engineering understanding</p>
+
+      <div class="nasa-layout">
+        <div class="visual-card nasa-poster-card">
+          <img src="assets/nasa_gateway_poster.png" alt="Gateway and Lunar Surface Operations Visualization Tool research poster" />
+        </div>
+        <div class="info-stack nasa-summary-stack">
+          <article><h3>Design Mission</h3><p>Create an immersive visualization tool that helps astronauts, engineers, and mission control understand NASA Gateway in its operational environment, including module configurations, camera views, solar array articulation, and future lunar surface operations.</p></article>
+          <article><h3>My Ownership</h3><p>Cleaned and prepared publicly available Gateway CAD assets for Unreal Engine, imported the spacecraft geometry, and supported the interactive tool architecture used to visualize Gateway configurations.</p></article>
+          <article><h3>NRHO Orbital Motion</h3><p>Introduced and implemented a low-fidelity Near-Rectilinear Halo Orbit feature using Blueprint scripting and mathematical models inside Unreal Engine to represent Gateway's motion around the Moon.</p></article>
+        </div>
+      </div>
+
+      <div class="gateway-grid">
+        <article class="process-card"><h3>CAD Cleanup + Unreal Import</h3><p>Prepared public Gateway CAD data for real-time visualization by cleaning geometry, organizing assets, and bringing the spacecraft model into Unreal Engine for interaction.</p></article>
+        <article class="process-card"><h3>Blueprint Scripting</h3><p>Used Unreal Engine Blueprint logic to support interactive visualization features, including orbit behavior, module interaction, camera views, and user-controlled system states.</p></article>
+        <article class="process-card gateway-image-card"><h3>Gateway Environment</h3><img src="assets/nasa_gateway_environment.png" alt="Gateway Visualization Tool Unreal Engine environment screenshot" /></article>
+        <article class="process-card"><h3>Published IEEE Paper</h3><p>Co-authored “Foundations of a Visualization Tool for NASA Gateway and Lunar Surface Operations,” documenting the tool's architecture, objectives, capabilities, and future XR development path.</p><a class="paper-link" href="assets/nasa_gateway_gvt_paper.pdf" target="_blank" rel="noreferrer">Open published paper</a></article>
+        <article class="process-card"><h3>IEEE Conference + Panel</h3><p>Presented and demoed the project at the California Science Center during the 2025 IEEE AR/VR in Space: Science and Engineering Conference and was selected to participate on the XR technologies workshop panel.</p></article>
+        <article class="process-card gateway-image-card wide-image-card"><h3>Conference Panel</h3><img src="assets/nasa_gateway_panel.png" alt="IEEE AR/VR in Space panel at the California Science Center" /></article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-pad">
+      <h2>Contact</h2>
+      <p>jai.sa.agarwal@gmail.com • (571) 412-8750</p>
+      <p class="small-note">This portfolio uses sanitized representations where project details cannot be publicly shown.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
